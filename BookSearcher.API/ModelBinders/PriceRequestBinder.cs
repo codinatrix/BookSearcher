@@ -1,6 +1,7 @@
 ﻿using BookSearcher.API.RequestObjects;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
+using System.Globalization;
 using System.Threading.Tasks;
 
 namespace BookSearcher.API.ModelBinders
@@ -29,7 +30,7 @@ namespace BookSearcher.API.ModelBinders
 
             try
             {
-                double[] priceParameters = Array.ConvertAll(urlQueryValue.Split('&'), double.Parse);
+                double[] priceParameters = Array.ConvertAll(urlQueryValue.Split('&'), p => double.Parse(p, CultureInfo.InvariantCulture));
 
                 PriceRequest priceRequest = null;
                 priceRequest = new PriceRequest(priceParameters);
