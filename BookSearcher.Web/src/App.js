@@ -42,7 +42,7 @@ class App extends Component {
     )
     .catch(
       (error) => {
-        if (error.response.status === 400 || error.response.status === 404)
+        if (error?.response?.status === 400 || error?.response?.status === 404)
           error = "Sorry, we don't support that kind of search."
         else
           error = "Something went wrong."
