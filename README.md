@@ -26,7 +26,7 @@ A web app for book searches.
 3. Open `BookSearcher.sln`
 4. Press F5 on your keyboard or click on the green play button at the top of Visual Studio
 5. http://localhost:9598/api/books/ should open in your browser
-6. Open the folder BookSearcher.Web in a command line
+6. Open the folder `BookSearcher.Web` in a command line
 7. Run `npm install`
 8. Run `npm start`
 9. http://localhost:3000/ should open in your browser
