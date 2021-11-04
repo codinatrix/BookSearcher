@@ -1,0 +1,22 @@
+.field-select {
+  select {
+    float: left;
+    border: none;
+    outline: none;
+    width: 20vw;
+    margin: 3.2vh .1vw 0vh 2vw;
+    padding: .9vh 2vw .8vh .8vw;
+    border: none;
+    font-size: 2em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: $primary-color;
+    color: $against-primary;
+  }
+  
+  select:focus-visible {
+    border: none;
+    outline: none;
+  }
+}

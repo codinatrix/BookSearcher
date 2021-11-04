@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookSearcher.Domain\BookSearcher.Domain.csproj" />
+    <ProjectReference Include="..\BookSearcher.Infrastructure\BookSearcher.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>

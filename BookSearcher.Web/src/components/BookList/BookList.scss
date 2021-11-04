@@ -1,0 +1,36 @@
+@import "./../../common/colours.scss";
+
+.book-list {  
+  .book-list-item {
+    box-shadow: 0 -1px $against-primary-subtle;
+    color: $against-primary;
+    line-height: 1.8;
+    padding: 8vh 3vw;
+    font-weight: 400;
+  }
+
+  .book-list-item > span {
+    margin-right: 2vw;
+  }
+
+  .book-list-item > .book-id {
+    color: $against-primary-subtle;
+  }
+
+  .book-list-item > .book-title {
+    font-size: 1.6em;
+  }
+
+  .book-list-item > .book-author {
+    font-style: italic;
+  }
+
+  .book-list-item > .book-genre {
+    background-color: $against-tertiary-subtle;
+    padding: .4vw;
+  }
+
+  .book-list-item > .book-published {
+    font-size: .8em;
+  }
+}

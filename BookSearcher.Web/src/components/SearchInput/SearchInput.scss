@@ -1,0 +1,15 @@
+@import "./../../common/colours.scss";
+
+.search-input {
+  .search-input-field {
+    font-size: 4em;
+    border: 0;
+    background: transparent;
+    color: $against-tertiary;
+    border-bottom: 1vh solid;
+  }
+
+  .search-input-field:focus {
+    outline: none;
+  }
+}
